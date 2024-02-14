@@ -1,0 +1,45 @@
+.main_body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.todo_body{
+  border: 2px solid rgb(0, 55, 255);
+  min-width: 300px;
+  justify-content: space-between;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  margin: 12px;
+  border-radius: 6px;
+}
+
+.text {
+  justify-content: space-between;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 6px;
+}
+
+.text_input {
+  padding: 8px;
+  min-width: 200px;
+  border-radius: 6px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.btn {
+  padding: 7 px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(183, 85, 0);
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: rgb(113, 2, 143);
+}
